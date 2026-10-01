@@ -1,6 +1,6 @@
 <div align="center">
 
-# Markdown to PDF Converter
+# OmniQuill
 
 > A sleek, cross-platform desktop application for converting Markdown to PDF with live preview, multi-language support, and customizable themes.
 
@@ -15,7 +15,7 @@
 
 ## Overview
 
-**Markdown to PDF Converter** is a modern, feature-rich desktop application that transforms your Markdown documents into beautifully formatted PDFs. Built with the cross-platform **Avalonia UI** framework, it delivers a native experience on Windows, Linux, and macOS from a single codebase.
+**OmniQuill** is a modern, feature-rich desktop application that transforms your Markdown documents into beautifully formatted PDFs. Built with the cross-platform **Avalonia UI** framework, it delivers a native experience on Windows, Linux, and macOS from a single codebase.
 
 Beyond conversion, it serves as a full-featured Markdown editor with live preview, syntax formatting tools, multi-language interface, and a refined theme engine — making it the perfect companion for writers, developers, and documentation authors.
 
@@ -102,8 +102,8 @@ Beyond conversion, it serves as a full-featured Markdown editor with live previe
 ## Project Structure
 
 ```
-MarkdownToPdfConverter/
-├── MarkdownToPdfConverter/          # Core class library
+OmniQuill/
+├── OmniQuill/          # Core class library
 │   ├── App.axaml                    # Application entry (styles, Fluent theme)
 │   ├── Converters/                  # Value converters (BoolToFontStyle, etc.)
 │   ├── Models/                      # Data models (PreviewBlock, PreviewBlockType)
@@ -123,9 +123,9 @@ MarkdownToPdfConverter/
 │       ├── SidebarComponent.axaml   # Settings, statistics, recent files
 │       ├── FindReplaceComponent.axaml # Search & replace panel
 │       └── MenuBarComponent.axaml   # Application menu
-├── MarkdownToPdfConverter.Desktop/  # Desktop executable host
+├── OmniQuill.Desktop/  # Desktop executable host
 │   └── Program.cs                   # Entry point (Avalonia app builder)
-├── MarkdownToPdfConverter.sln       # Solution file
+├── OmniQuill.sln       # Solution file
 └── Directory.Build.props            # Shared MSBuild properties
 ```
 
@@ -142,17 +142,17 @@ MarkdownToPdfConverter/
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/MarkdownToPdfConverter.git
-cd MarkdownToPdfConverter
+git clone https://github.com/your-username/OmniQuill.git
+cd OmniQuill
 
 # Restore dependencies
 dotnet restore
 
 # Run the application
-dotnet run --project MarkdownToPdfConverter.Desktop
+dotnet run --project OmniQuill.Desktop
 
 # Build a release
-dotnet publish MarkdownToPdfConverter.Desktop -c Release -r win-x64 --self-contained
+dotnet publish OmniQuill.Desktop -c Release -r win-x64 --self-contained
 ```
 
 > Replace `win-x64` with `linux-x64` or `osx-x64` for other platforms.
