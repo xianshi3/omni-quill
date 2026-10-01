@@ -142,8 +142,8 @@ OmniQuill/
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/OmniQuill.git
-cd OmniQuill
+git clone https://github.com/xianshi3/omni-quill.git
+cd omni-quill
 
 # Restore dependencies
 dotnet restore
