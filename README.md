@@ -16,7 +16,7 @@ English | [简体中文](README.zh-CN.md)
 [![Build](https://img.shields.io/github/actions/workflow/status/xianshi3/omni-quill/ci.yml?branch=master&style=for-the-badge&label=build&logo=githubactions&logoColor=white)](https://github.com/xianshi3/omni-quill/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/github/license/xianshi3/omni-quill?style=for-the-badge&label=license&color=EB5424)](LICENSE)
 
-[**⬇️ Download**](#%EF%B8%8F-download) · [**✨ Features**](#%EF%B8%8F-features) · [**🚀 Getting Started**](#%EF%B8%8F-getting-started) · [**🤝 Contributing**](#%EF%B8%8F-contributing)
+[**⬇️ Download**](#%EF%B8%8F-download) · [**✨ Features**](#-features) · [**🚀 Getting Started**](#-getting-started) · [**🤝 Contributing**](#-contributing)
 
 </div>
 
